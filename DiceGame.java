@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Dicegame {
   public static void main(String[] a) {
     run();
@@ -13,4 +14,10 @@ public class Dicegame {
 public static int dice() {
     return (int)(Math.random()*6+1);
 }
+  public static String Greeting() {
+    System.out.println("What is your name? ");
+    Scanner scanner=new Scanner(System.in);
+    String name=scanner.nextLine();
+    return name;
+  }
 }
