@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Dicegame {
+public class DiceGame {
   public static void main(String[] a) {
     run();
   }
